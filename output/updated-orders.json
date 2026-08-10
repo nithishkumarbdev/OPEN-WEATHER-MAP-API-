@@ -1,0 +1,33 @@
+[
+  {
+    "order_id": "1001",
+    "customer": "Alice Smith",
+    "city": "New York",
+    "status": "Pending",
+    "weatherCondition": "Clouds",
+    "temperature": 29.04
+  },
+  {
+    "order_id": "1002",
+    "customer": "Bob Jones",
+    "city": "Mumbai",
+    "status": "Delayed",
+    "weatherCondition": "Rain",
+    "temperature": 28.39
+  },
+  {
+    "order_id": "1003",
+    "customer": "Charlie Green",
+    "city": "London",
+    "status": "Pending",
+    "weatherCondition": "Clouds",
+    "temperature": 26.47
+  },
+  {
+    "order_id": "1004",
+    "customer": "InvalidCity123",
+    "city": "InvalidCity123",
+    "status": "Pending",
+    "weatherError": "City \"InvalidCity123\" not found"
+  }
+]

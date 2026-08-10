@@ -1,0 +1,32 @@
+{
+  "name": "weather-delivery-tracker",
+  "version": "1.0.0",
+  "description": "Checks weather for pending orders and flags delivery delays, with AI-generated apology messages",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "orders",
+    "weather",
+    "delivery"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.8.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.9.6",
+    "vitest": "^4.1.10"
+  }
+}
