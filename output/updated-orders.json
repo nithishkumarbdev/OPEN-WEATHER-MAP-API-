@@ -25,9 +25,10 @@
   },
   {
     "order_id": "1004",
-    "customer": "InvalidCity123",
-    "city": "InvalidCity123",
+    "customer": "Jash",
+    "city": "Bangalore",
     "status": "Pending",
-    "weatherError": "City \"InvalidCity123\" not found"
+    "weatherCondition": "Clouds",
+    "temperature": 20.97
   }
 ]
